@@ -116,9 +116,8 @@
 	      TCP SYN ACK packets, while leaving the treatment of the initial TCP SYN packet unchanged from 
 	      current practice,can only improve performance without causing a threat for system security or stability.
 
-### ECN+/WAIT :
+### ECN+/TRY ONCE :
 
       * With ECN+, the TCP node sends a data packet immediately (with an initial congestion window of one segment).
 
-      * With ECN+/Wait, the TCP node waits a round-trip time before sending a data packet; the responder 
-      already has one  measurement of the round-trip time when the acknowledgement for the SYN/ACK packet is received.
+      * With ECN+/TRY ONCE, 
