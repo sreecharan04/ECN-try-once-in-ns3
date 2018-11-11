@@ -1,7 +1,7 @@
 
 OUR APPROACH:
 
-1.  We are using the dumbbell topology with 5 sender nodes,2 routers and 5 receiver nodes. We have enabled the p-cap to capture the packets on Wireshark and check the marked bits.
+1.  We are using the dumbbell topology with 5 sender nodes,2 routers and 5 receiver nodes in the topology. We have enabled the p-cap to capture the packets on Wireshark and check the marked bits.
 
 2. We must implement the changes in the tcp-socket-base files to support the congestion control for control packets.
 
