@@ -5,7 +5,7 @@ OUR APPROACH:
 
 2. We must implement the changes in the tcp-socket-base files to support the congestion control for control packets.
 
-3. Since the tos field in the Ip header is being set for each packet in the Addsockettags() method, we changed the function by adding a Boolean variable which is marked true only if it is a SYN/ACK packet. The function sets the ECT bit whenever the data packets are sent in an ECN enabled connection and also if the packet is SYN/ACK packet from an ECN enabled responder. We altered the condition in SendEmptypacket() method where the AddSockettag() method is called and set the state of the responder to ECN_IDLE before sending the SYN/Ack Packet. Also, the Boolean variable is set to true if the packet is SYN/Ack packet. We don’t change the other TCP flags being set as the other flags are same in already implemented ClassicEcn and Ecn++.
+3. Since the tos field in the Ip header is being set for each packet in the Addsockettags() method, we changed the function by adding a Boolean variable which is marked true only if it is a SYN/ACK packet. The function sets the ECT bit whenever the data packets are sent in an ECN enabled connection and also if the packet is SYN/ACK packet from an ECN enabled responder. We altered the condition in SendEmptypacket() method where the AddSockettag() method is called and set the state of the responder to ECN_IDLE before sending the SYN/Ack Packet. Also, the Boolean variable is set to true if the packet is SYN/Ack packet. We don’t change the other TCP flags being set as the other flags are same in already implemented ClassicEcn and Ecn+.
 ```
 TcpSocketBase::AddSocketTags (const Ptr<Packet> &p,bool withEct) const //withEct boolean variable added here
 {
