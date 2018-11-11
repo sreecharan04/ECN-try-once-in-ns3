@@ -37,7 +37,7 @@
        ECN uses the two least significant (right-most) bits in the IPv4 or IPv6 header to encode four different 
        code points:
 
-    00 – Non ECN-Capable Transport, Non-ECT
+    00 – Non ECN-Capable Transport, Non-ECT.
     10 – ECN Capable Transport, ECT(0)
     01 – ECN Capable Transport, ECT(1)
     11 – Congestion Encountered, CE.
