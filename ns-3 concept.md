@@ -119,4 +119,4 @@
 
       * With ECN+, the TCP node sends a data packet immediately (with an initial congestion window of one segment).
 
-      * With ECN+/TRY ONCE, 
+      * With ECN+/TRY ONCE, receiver sends another syn/ack packet with not-ect and the sender goes into established state only after receiving this syn/ack packet with not-ect.
