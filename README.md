@@ -4,7 +4,7 @@ This project is to implement ECN+/TryOnce in ns-3.
 ### We uploaded following files and folders in our repository
 
 ## modified src files 
-This folder contains complete modification for tcp-socketbase.h and tcp-socketbase.cc files.
+This folder contains complete modification for tcp-socketbase.h(headers) and tcp-socketbase.cc files.
 
 ## Results
 This folder contains the pcap results of the executed network topology test.cc.
