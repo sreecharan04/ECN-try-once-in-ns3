@@ -28,6 +28,7 @@ This file is the topology used for running the implemented changes and verify th
 
 Replace the tcp-socket-base.cc and .h files in your current ns3/src/internet/model folder.<br>
 Download the test.cc file into your scratch folder.<br>
+build ns-3<br>
 Run the file using the following command:<br>
 ```./waf --run test; ```<br>
 Results are stored in the results/gfc-dumbbell folder named with the time of execution.<br>
