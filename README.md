@@ -33,7 +33,7 @@ Run the file using the following command:<br>
 ```./waf --run test; ```<br>
 Results are stored in the results/gfc-dumbbell folder named with the time of execution.<br>
 Open the pcap files in the folder to view the results.<br>
-
+go through the sender and receiver flags that are there in the pcap
 
 
 
