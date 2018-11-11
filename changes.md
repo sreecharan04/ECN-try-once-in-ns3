@@ -59,10 +59,6 @@ TcpSocketBase::SetCE(Ptr<Packet> p)
   SocketIpTosTag ipTosTag;
   ipTosTag.SetTos (MarkEcnCe (0));
   p->ReplacePacketTag (ipTosTag);
-
-  SocketIpv6TclassTag ipTclassTag;
-  ipTclassTag.SetTclass (MarkEcnCe (0));
-  p->ReplacePacketTag (ipTclassTag);
 }
 
 
