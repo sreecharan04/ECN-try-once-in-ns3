@@ -22,7 +22,7 @@ This image consists of the screenshot of the pcap result file after execution of
 This file consists of the  changes we made for the implementation of ecn+ try once in ns-3 at every phase.
 
 ## test.cc
-This file is the topology used for running the implemented changes and verify the changes implemented.
+This file is the topology used for running the implemented changes and verify the changes implemented. We used a dumbbell topology with 5 senders, 2 routers and 5 senders each starting at time=0.00 seconds and stopping at 10.00 seconds. Tcp Bulksend application is installed on each of the sender nodes.<br>
 
 # How to build
 
