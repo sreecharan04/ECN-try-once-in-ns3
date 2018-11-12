@@ -2,7 +2,7 @@
 
       congestion control ensures that the sender does not overflow the network. Comparing to the flow control
       technique where the flow control mechanism ensures that the source host does not overflow the destination 
-      host.It ensures that the capability of the routers along the path does not become overflowed. 
+      host.It ensures that the capability of the routers along the path does not become overflowed.So there won't any traffic. 
 
 
 ### ECN (Explict Congestion Notification):
