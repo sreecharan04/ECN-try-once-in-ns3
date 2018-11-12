@@ -51,7 +51,7 @@ else
 AddSocketTags (p,false);
 }
 ```
-4. Now, since we were unable to create congestion explicitly for the SYN/Ack packets, we manually set the CE bit in the SYN/ACK packet to show the changes between the normal implementation and ECN+/Try Once implementation. We added a function SetCE() to set the CE bit in any packet desired. The function has also been declared in tcp-socket-base.h
+4. Now, since we were unable to create congestion explicitly for the SYN/Ack packets, we manually set the CE bit in the SYN/ACK packet to show the changes between the normal implementation and ECN+/Try Once implementation. We added a function SetCE(p) to set the CE bit in any packet desired. The function has also been declared in tcp-socket-base.h.
 ```
 void
 TcpSocketBase::SetCE(Ptr<Packet> p)
