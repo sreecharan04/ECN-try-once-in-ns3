@@ -67,8 +67,8 @@
         These are the ECN-Echo (ECE) and Congestion Window Reduced (CWR) bits.
         <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-       Use of ECN on a TCP connection is optional; for ECN to be used, it must be negotiated at connection 
-       establishment by including suitable options in the SYN and SYN-ACK segments.
+       Use of ECN on a TCP connection is optional, for ECN to be used, it must be negotiated at connection 
+       establishment by including suitable options in the SYN and SYN-ACK segments.This is called ECN+
 
        When ECN has been negotiated on a TCP connection, the sender indicates that IP packets that carry 
        TCP segments of that connection are carrying traffic from an ECN Capable Transport by marking them with
